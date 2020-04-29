@@ -30,8 +30,8 @@ float SensorPressure::map(float vCurrent, float vMin, float vMax, float pMin, fl
 	/*
 		( x - x1 ) / ( x2 - x1 ) 	= ( y - y1 ) / ( y2 - y1 )
 		( x - x1 )          		= ( y - y1 ) / ( y2 - y1 ) * ( x2 - x1 )
-		x             				= ( y - y1 ) / ( y2 - y1 ) * ( x2 - x1 ) + x1
-		x             				= ( y - y1 ) * ( x2 - x1 ) / ( y2 - y1 ) + x1
+		x             			= ( y - y1 ) / ( y2 - y1 ) * ( x2 - x1 ) + x1
+		x             			= ( y - y1 ) * ( x2 - x1 ) / ( y2 - y1 ) + x1
 	*/
 
 	if (vCurrent < vMin) vCurrent = vMin;
