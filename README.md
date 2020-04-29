@@ -1,6 +1,6 @@
 ## Arduino Pressure Sensor
 
-![PRESSURE SENSOR](https://ae01.alicdn.com/kf/HTB1AsTlrr1YBuNjSszhq6AUsFXaS/5-0-1-2.jpg)
+![PRESSURE SENSOR](https://m.media-amazon.com/images/I/41t88zk1JJL.jpg)
 ```c++
 #define SENSOR_PRESSURE	A3 // pin sensor pressure
 
