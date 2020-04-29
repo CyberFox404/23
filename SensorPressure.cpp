@@ -1,7 +1,5 @@
 #include "SensorPressure.h"
 
-
-
 SensorPressure::SensorPressure(int pinSensor, float vMin, float vMax, float pMin, float pMax, float error = 0)
 {
 	_pinSensor = pinSensor;
